@@ -15,8 +15,11 @@
 ## Todo:
 - [x] scan html for english words
 - [x] create ordered word frequency list 
+- [x] Filtering stopwords
 
 - [ ] Add functions to scan .pdf files and other doctypes
 - [ ] Build gui for file/url input
 - [ ] Automatically Search web for word definitions
+- [ ] pairing words with definition
+- [ ] sorting words alphabetically
 - [ ] Generate glossery in html with helpful linking 
