@@ -13,5 +13,5 @@ def urlopen(url):
 def grabtext(html):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, 'html.parser')
-    fullwordlist = soup.get_text()
-    return fullwordlist
+    text = soup.get_text()
+    return text
