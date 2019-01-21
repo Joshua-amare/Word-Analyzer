@@ -13,6 +13,10 @@
 
 
 ## Todo:
+- [x] scan html for english words
+- [x] create ordered word frequency list 
 
-* Add functions to scan .pdf files and other doctypes
-* Build gui for file/url input
+- [ ] Add functions to scan .pdf files and other doctypes
+- [ ] Build gui for file/url input
+- [ ] Automatically Search web for word definitions
+- [ ] Generate glossery in html with helpful linking 
