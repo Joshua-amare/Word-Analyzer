@@ -10,5 +10,4 @@ nltk == 3.4
 # wordFilter.py: 9
 pyenchant == 2.0.0
 
-# quickurl.py: 7
-requests == 2.18.4
+
