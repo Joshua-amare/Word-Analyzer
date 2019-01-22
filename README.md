@@ -33,5 +33,6 @@
     3. urllib
     
   2. Try running the example file
+  
     1. May need to uncomment the nltk download lines
     2.  python3 test.py
