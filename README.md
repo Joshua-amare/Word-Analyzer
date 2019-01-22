@@ -26,7 +26,7 @@
 - [ ] Generate glossery in html with helpful linking 
 
 ## How to run:
-  1. Install the dependencies:
+  1. Install the dependencies with ** pip3 install :
   
     1. Beautiful Soup 4
     2. nltk
