@@ -1,4 +1,5 @@
 # Word-Analyzer
+### written using Python 3.7
 ## Goal: 
 1. Cross Check two files for english text
 2. Sort Words found by frequency
@@ -23,3 +24,11 @@
 - [ ] pairing words with definition
 - [ ] sorting words alphabetically
 - [ ] Generate glossery in html with helpful linking 
+
+## How to run:
+  1. Install the dependencies:
+    1. Beautiful Soup 4
+    2. nltk
+    3. urllib
+  2. Try running the example file
+    1. ''' python3 test.py '''
