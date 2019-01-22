@@ -27,8 +27,11 @@
 
 ## How to run:
   1. Install the dependencies:
+  
     1. Beautiful Soup 4
     2. nltk
     3. urllib
+    
   2. Try running the example file
+  
     1. ''' python3 test.py '''
