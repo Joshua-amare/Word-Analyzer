@@ -6,43 +6,31 @@
 <script>
 
 function genLine(){
-	var node  = document.getElementById("b");
-	var node2 = document.getElementById("b1");
-	var node3 = document.getElementById("b2");
 	var starcount = 0;
-	var starchar = "*";
+	var starchar = "_";
 
 	var l =["ASS","DOG","CAT"]
 	var f = [20,15,6]
+	var node  = document.getElementById("b");
+	var node2 = document.getElementById("b1");
+	var node3 = document.getElementById("b2");
 
 	var sr = 100;
-	var b = l[0];
-	var b2 =((b-l[1])/b)*sr;
-	var b3 =((b-l[2])/b)*sr;
-
-	for(i=0;i<sr;i++){
-		starcount++;}
-
+	var b  =((f[0]*sr)/(f[0]));
+	var b1 =((f[1]*sr)/(f[0]));
+	var b2 =((f[2]*sr)/(f[0]));
+ 	document.getElementById("b").style.color = "red";
+	starcount = b;
 	starnode = (document.createTextNode(starchar.repeat(starcount)));
 	node.appendChild(starnode);
-	starcount=0;
-	starnode = (document.createTextNode(starchar.repeat(starcount)));
-
-	for(i=0;i<b2;i++){
-		starcount++;}
-
+ 	document.getElementById("b1").style.color = "blue";
+	starcount=b1;
 	starnode = (document.createTextNode(starchar.repeat(starcount)));
 	node2.appendChild(starnode);
-	starcount=0;
-	starnode = (document.createTextNode(starchar.repeat(starcount)));
-
-	for(i=0;i<b3;i++){
-		starcount++;}
-
+ 	document.getElementById("b2").style.color = "green";
+	starcount=b2;
 	starnode = (document.createTextNode(starchar.repeat(starcount)));
 	node3.appendChild(starnode);
-	starcount=0;
-	starnode = (document.createTextNode(starchar.repeat(starcount)));
 
 }
 </script>
@@ -50,9 +38,9 @@ function genLine(){
 
 <button onclick="genLine()">genLine</button>
 
-<div id="b">Word 1:<br></div>
+<div>Word 1:<br><div id="b"></div><br> </div>
 
-<div id="b1">Word 2:<br></div>
+<div>Word 2:<br><div id="b1"></div><br> </div>
 
-<div id="b2">Word 3:<br></div>
+<div>Word 3:<br><div id="b2"></div><br> </div>
 </body></html>
