@@ -3,7 +3,7 @@ import wordFilter
 import wordFreqSort
 import genFile
 
-url = "http://www.wikipedia.com"
+url = "https://www.watchcartoononline.io"
 html1=quickurl.urlopen(url)
 html2 = quickurl.grabtext(html1).lower()
 del html1
