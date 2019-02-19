@@ -18,6 +18,7 @@
 - [x] create ordered word frequency list 
 - [x] Filtering stopwords
 
+- [ ] Export results to .json
 - [ ] Add functions to scan .pdf files and other doctypes
 - [ ] Build gui for file/url input
 - [ ] Automatically Search web for word definitions
